@@ -9,8 +9,8 @@ const home=()=>{
             <Text>
                 home
             </Text>
-            <TouchableOpacity onPress={()=>router.push('/profile')}>
-                <Text>Go to profile</Text>
+            <TouchableOpacity onPress={()=>router.push('/details')}>
+                <Text>Go to details</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={()=>router.back()}>
                 <Text>Go Back</Text>
